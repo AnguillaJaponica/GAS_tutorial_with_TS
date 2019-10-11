@@ -1,7 +1,5 @@
 let user = "Terumasa Taka";
 
-function main(person) {
-    return "Hello," + person;
+function main(user) {
+    console.log("Hello," + user);
 }
-
-document.body.textContent = main(user);
